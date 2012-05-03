@@ -5,7 +5,7 @@ I want to tell the app my name
 
 Scenario: Verify the prompt shows up
 Given the application is running
-Given the name is Mike
+When I type "Mike"
 Then the output should contain "What is your name?"
 
 Scenario: Prompt the user for name

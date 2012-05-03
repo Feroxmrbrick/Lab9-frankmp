@@ -8,3 +8,10 @@ puts "2) Not Global Thermonuclear War"
 puts "3) Chess"
 puts "4) GO"
 puts "5) Segmentation fault"
+
+select = gets.chomp
+if (select.eql?("1"))
+  puts "BOOM!"
+  else
+  puts "no game"
+end
